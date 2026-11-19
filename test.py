@@ -13,6 +13,6 @@ print(d)
 
 print("Test")
 
-e = d * 100
+print("Test2")
 
-print(e)
+e = d * 10
