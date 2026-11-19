@@ -12,4 +12,7 @@ d = c + 10
 print(d)
 
 print("Test")
-print("Test2")
+
+e = d * 100
+
+print(e)
