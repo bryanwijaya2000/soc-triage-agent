@@ -1,6 +1,12 @@
 a = 1
 b = 2
 
-sum = a + b
+print("Sum of a and b is:")
 
-print(sum)
+c = a + b
+
+print(c)
+
+d = c + 10
+
+print(d)
