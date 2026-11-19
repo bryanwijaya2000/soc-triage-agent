@@ -16,3 +16,6 @@ print("Test")
 f = d * 100
 
 print(f)
+print("Test2")
+
+e = d * 10
