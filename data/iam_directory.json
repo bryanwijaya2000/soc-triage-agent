@@ -1,0 +1,68 @@
+{
+  "usr_101": {
+    "full_name": "Andi Wijaya",
+    "department": "Platform Engineering",
+    "role": "Senior DevOps Engineer",
+    "privilege_tier": "tier_1_privileged",
+    "allowed_countries": ["ID", "SG"],
+    "status": "active"
+  },
+  "usr_102": {
+    "full_name": "Siti Rahma",
+    "department": "Cloud Security",
+    "role": "Principal Security Architect",
+    "privilege_tier": "tier_0_critical",
+    "allowed_countries": ["ID", "SG"],
+    "status": "active"
+  },
+  "usr_103": {
+    "full_name": "Citra Lestari",
+    "department": "Product Design",
+    "role": "UI/UX Designer",
+    "privilege_tier": "tier_3_standard",
+    "allowed_countries": ["ID"],
+    "status": "active"
+  },
+  "usr_104": {
+    "full_name": "Budi Santoso",
+    "department": "Finance",
+    "role": "Junior Accountant",
+    "privilege_tier": "tier_3_standard",
+    "allowed_countries": ["ID"],
+    "status": "active"
+  },
+  "usr_105": {
+    "full_name": "Dewi Kusuma",
+    "department": "Human Resources",
+    "role": "HR Operations Specialist",
+    "privilege_tier": "tier_2_elevated",
+    "allowed_countries": ["ID"],
+    "status": "active"
+  },
+  "usr_106": {
+    "full_name": "Eko Prasetyo",
+    "department": "Customer Support",
+    "role": "Support Analyst",
+    "privilege_tier": "tier_3_standard",
+    "allowed_countries": ["ID"],
+    "status": "active"
+  },
+  "svc_etl_01": {
+    "full_name": "ETL Pipeline Worker",
+    "department": "Data Engineering",
+    "role": "Non-Human Service Identity",
+    "privilege_tier": "tier_1_privileged",
+    "allowed_ips": ["10.20.4.15"],
+    "allowed_resources": ["data-warehouse-api"],
+    "status": "active"
+  },
+  "svc_backup_02": {
+    "full_name": "Nightly Backup Agent",
+    "department": "Infrastructure",
+    "role": "Non-Human Service Identity",
+    "privilege_tier": "tier_1_privileged",
+    "allowed_ips": ["10.20.8.22"],
+    "allowed_resources": ["s3-encrypted-backups"],
+    "status": "active"
+  }
+}

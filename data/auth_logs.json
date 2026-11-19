@@ -1,0 +1,402 @@
+[
+  {
+    "event_id": "evt_9001",
+    "timestamp": "2026-11-17T08:01:12Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_101",
+      "username": "andi.wijaya",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.10",
+      "geo_country": "ID",
+      "geo_city": "Jakarta",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "oidc_mfa",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9002",
+    "timestamp": "2026-11-17T08:05:44Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "svc_etl_01",
+      "username": "etl-pipeline-worker",
+      "type": "service_account"
+    },
+    "source": {
+      "ip": "10.20.4.15",
+      "geo_country": "INTERNAL",
+      "geo_city": "DC-SG-01",
+      "user_agent": "python-requests/2.32.3"
+    },
+    "target_resource": "data-warehouse-api",
+    "auth_method": "oauth2_client_credentials",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9003",
+    "timestamp": "2026-11-17T08:12:03Z",
+    "event_action": "auth.login",
+    "outcome": "failure",
+    "actor": {
+      "user_id": "usr_103",
+      "username": "citra.lestari",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.45",
+      "geo_country": "ID",
+      "geo_city": "Surabaya",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "password",
+    "failure_reason": "invalid_password"
+  },
+  {
+    "event_id": "evt_9004",
+    "timestamp": "2026-11-17T08:12:19Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_103",
+      "username": "citra.lestari",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.45",
+      "geo_country": "ID",
+      "geo_city": "Surabaya",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "oidc_mfa",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9005",
+    "timestamp": "2026-11-17T08:15:00Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_102",
+      "username": "siti.rahma",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.12",
+      "geo_country": "ID",
+      "geo_city": "Jakarta",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "target_resource": "corp-vpn-gateway",
+    "auth_method": "saml_sso",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9006",
+    "timestamp": "2026-11-17T08:20:10Z",
+    "event_action": "auth.login",
+    "outcome": "failure",
+    "actor": {
+      "user_id": "usr_104",
+      "username": "budi.santoso",
+      "type": "human"
+    },
+    "source": {
+      "ip": "185.220.101.42",
+      "geo_country": "NL",
+      "geo_city": "Amsterdam",
+      "user_agent": "curl/8.5.0"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "password",
+    "failure_reason": "invalid_password"
+  },
+  {
+    "event_id": "evt_9007",
+    "timestamp": "2026-11-17T08:20:22Z",
+    "event_action": "auth.login",
+    "outcome": "failure",
+    "actor": {
+      "user_id": "usr_104",
+      "username": "budi.santoso",
+      "type": "human"
+    },
+    "source": {
+      "ip": "185.220.101.42",
+      "geo_country": "NL",
+      "geo_city": "Amsterdam",
+      "user_agent": "curl/8.5.0"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "password",
+    "failure_reason": "invalid_password"
+  },
+  {
+    "event_id": "evt_9008",
+    "timestamp": "2026-11-17T08:20:35Z",
+    "event_action": "auth.login",
+    "outcome": "failure",
+    "actor": {
+      "user_id": "usr_104",
+      "username": "budi.santoso",
+      "type": "human"
+    },
+    "source": {
+      "ip": "185.220.101.42",
+      "geo_country": "NL",
+      "geo_city": "Amsterdam",
+      "user_agent": "curl/8.5.0"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "password",
+    "failure_reason": "invalid_password"
+  },
+  {
+    "event_id": "evt_9009",
+    "timestamp": "2026-11-17T08:20:49Z",
+    "event_action": "auth.login",
+    "outcome": "failure",
+    "actor": {
+      "user_id": "usr_104",
+      "username": "budi.santoso",
+      "type": "human"
+    },
+    "source": {
+      "ip": "185.220.101.42",
+      "geo_country": "NL",
+      "geo_city": "Amsterdam",
+      "user_agent": "curl/8.5.0"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "password",
+    "failure_reason": "invalid_password"
+  },
+  {
+    "event_id": "evt_9010",
+    "timestamp": "2026-11-17T08:21:04Z",
+    "event_action": "auth.login",
+    "outcome": "failure",
+    "actor": {
+      "user_id": "usr_104",
+      "username": "budi.santoso",
+      "type": "human"
+    },
+    "source": {
+      "ip": "185.220.101.42",
+      "geo_country": "NL",
+      "geo_city": "Amsterdam",
+      "user_agent": "curl/8.5.0"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "password",
+    "failure_reason": "invalid_password"
+  },
+  {
+    "event_id": "evt_9011",
+    "timestamp": "2026-11-17T08:21:18Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_104",
+      "username": "budi.santoso",
+      "type": "human"
+    },
+    "source": {
+      "ip": "185.220.101.42",
+      "geo_country": "NL",
+      "geo_city": "Amsterdam",
+      "user_agent": "curl/8.5.0"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "password_legacy_fallback",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9012",
+    "timestamp": "2026-11-17T08:22:05Z",
+    "event_action": "iam.role_assign",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_104",
+      "username": "budi.santoso",
+      "type": "human"
+    },
+    "source": {
+      "ip": "185.220.101.42",
+      "geo_country": "NL",
+      "geo_city": "Amsterdam",
+      "user_agent": "curl/8.5.0"
+    },
+    "target_resource": "iam-admin-group",
+    "auth_method": "session_token",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9013",
+    "timestamp": "2026-11-17T08:30:11Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_102",
+      "username": "siti.rahma",
+      "type": "human"
+    },
+    "source": {
+      "ip": "91.198.174.192",
+      "geo_country": "DE",
+      "geo_city": "Frankfurt",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64)"
+    },
+    "target_resource": "cloud-console-prod",
+    "auth_method": "saml_sso",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9014",
+    "timestamp": "2026-11-17T08:35:00Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_105",
+      "username": "dewi.kusuma",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.88",
+      "geo_country": "ID",
+      "geo_city": "Bandung",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "target_resource": "hr-payroll-system",
+    "auth_method": "oidc_mfa",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9015",
+    "timestamp": "2026-11-17T08:41:27Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "svc_etl_01",
+      "username": "etl-pipeline-worker",
+      "type": "service_account"
+    },
+    "source": {
+      "ip": "45.33.32.156",
+      "geo_country": "US",
+      "geo_city": "Fremont",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "target_resource": "customer-pii-vault",
+    "auth_method": "oauth2_client_credentials",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9016",
+    "timestamp": "2026-11-17T08:45:10Z",
+    "event_action": "auth.token_refresh",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_101",
+      "username": "andi.wijaya",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.10",
+      "geo_country": "ID",
+      "geo_city": "Jakarta",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "target_resource": "corp-sso-portal",
+    "auth_method": "refresh_token",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9017",
+    "timestamp": "2026-11-17T08:50:02Z",
+    "event_action": "auth.login",
+    "outcome": "denied",
+    "actor": {
+      "user_id": "usr_106",
+      "username": "eko.prasetyo",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.91",
+      "geo_country": "ID",
+      "geo_city": "Jakarta",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+    },
+    "target_resource": "cloud-console-prod",
+    "auth_method": "oidc_mfa",
+    "failure_reason": "abac_policy_denied_outside_shift"
+  },
+  {
+    "event_id": "evt_9018",
+    "timestamp": "2026-11-17T08:52:40Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "svc_backup_02",
+      "username": "nightly-backup-agent",
+      "type": "service_account"
+    },
+    "source": {
+      "ip": "10.20.8.22",
+      "geo_country": "INTERNAL",
+      "geo_city": "DC-SG-01",
+      "user_agent": "aws-cli/2.17.0"
+    },
+    "target_resource": "s3-encrypted-backups",
+    "auth_method": "iam_role_assumption",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9019",
+    "timestamp": "2026-11-17T08:55:19Z",
+    "event_action": "auth.logout",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_105",
+      "username": "dewi.kusuma",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.88",
+      "geo_country": "ID",
+      "geo_city": "Bandung",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "target_resource": "hr-payroll-system",
+    "auth_method": "session_token",
+    "failure_reason": null
+  },
+  {
+    "event_id": "evt_9020",
+    "timestamp": "2026-11-17T08:59:51Z",
+    "event_action": "auth.login",
+    "outcome": "success",
+    "actor": {
+      "user_id": "usr_101",
+      "username": "andi.wijaya",
+      "type": "human"
+    },
+    "source": {
+      "ip": "103.10.66.10",
+      "geo_country": "ID",
+      "geo_city": "Jakarta",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "target_resource": "git-enterprise-repo",
+    "auth_method": "ssh_cert",
+    "failure_reason": null
+  }
+]
